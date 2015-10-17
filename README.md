@@ -3,9 +3,13 @@
 Slides for a talk on Bash and common command line tools. To be presented at
 SeaGL 2015.
 
-[View slideshow](http://TODO.meteor.com).
-
 Hit <kbd>s</kbd> to show [speaker notes](https://github.com/hakimel/reveal.js#speaker-notes).
+
+## Links
+
+* [Source code for this talk](https://gitlab.com/meonkeys/seagl2015-cli-talk).
+* [Rendered slideshow](http://meonkeys.github.io/seagl2015-cli-talk/).
+* [Talk details](https://osem.seagl.org/conference/seagl2015/proposal/31)
 
 # Copyright and license
 
