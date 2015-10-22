@@ -8,7 +8,18 @@ bash
 		Alt-f, Alt-b to jump over words
 		Ctrl-w to delete, Ctrl-y to "yank" (paste)
 		Home key, End key, arrow keys
-	reusing arguments
+		Ctrl-r to reverse-search through history
+	fish
+		syntax highlighting
+		; echo foo bar baz
+		shows best Tab-completion before completing ("autosuggestions")
+		; echo
+		better tab completion
+		; man pi<Tab>
+		; echo the date is (date -<Tab>)
+		web-based config
+		; fish_config
+	back to bash - reusing arguments
 		; vim bashrc
 		; git add <Alt-.>
 		; git ci <Alt-.>
