@@ -1,0 +1,34 @@
+bash
+	start in ~/git/meonkeys/dotfiles/bashrc
+		see https://gitlab.com/meonkeys/dotfiles
+	emotiprompt
+		; false
+		; true
+	readline basics
+		Alt-f, Alt-b to jump over words
+		Ctrl-w to delete, Ctrl-y to "yank" (paste)
+		Home key, End key, arrow keys
+	reusing arguments
+		; vim bashrc
+		; git add <Alt-.>
+		; git ci <Alt-.>
+		; ^ci^log
+	dirjump / z / j2
+		see https://github.com/rupa/j2
+		; j 
+		; j dot
+		; j cli<TAB>
+	pv
+		more tricks: http://blog.urfix.com/9-tricks-pv-pipe-viewer/
+vim
+	my Vim setup: https://gitlab.com/meonkeys/dotvim
+	vimoutliner
+git
+	bisect
+		use example from git talk
+	local clones (speed, testing, etc)
+ssh
+	ssh-agent
+	multiplex
+screen
+	detach/reattach

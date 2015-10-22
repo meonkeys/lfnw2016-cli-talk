@@ -35,50 +35,9 @@
   <body>
     <div class="reveal">
       <div class="slides">
-        <section data-markdown>
-          <script type="text/template">
-            # The command line
-
-            ## A versitile, future-proof computing environment
-
-            ### Mind-blowing Bash, Vim, Git, SSH, GNU Screen, and more.
-
-            By [Adam Monsen](http://adammonsen.com), Head of Engineering at [C-SATS, Inc.](https://csats.com)
-          </script>
-        </section>
-
-        <section data-markdown>
-          <script type="text/template">
-          I'll recap everything for you later. We have a note-taker.
-
-          Be present, ask questions. I'll moderate.
-          </script>
-        </section>
-
-        <section data-markdown>
-          <script type="text/template">
-            Also, I won't read my slides.
-          </script>
-        </section>
-
-        <section data-markdown>
-          <script type="text/template">
-            # Mind-blowing
-
-            * Could be small (probably is)
-            * Inspires, feels right, sticks
-          </script>
-        </section>
-
-        <section data-markdown>
-          <script type="text/template">
-            # Thank you!
-
-            * Followup blog post: <http://adammonsen.com>
-            * Contact me: <haircut@gmail.com>
-
-            SPEAKER NOTES: I want to hear what works for you or what I could do better. Please let me know!
-          </script>
+        <section data-markdown="slides.md"
+          data-separator="^\n\n\n"
+          data-separator-notes="^SpeakerNote:">
         </section>
       </div>
     </div>
@@ -100,10 +59,17 @@
 
         // Optional reveal.js plugins
         dependencies: [
+          // Cross-browser shim that fully implements classList - https://github.com/eligrey/classList.js/
           { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+
+          // Interpret Markdown in <section> elements
           { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
           { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+
+          // Syntax highlight for <code> elements
           { src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+
+          // Speaker notes
           { src: 'plugin/notes/notes.js', async: true }
         ]
       });
