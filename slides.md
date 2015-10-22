@@ -19,12 +19,11 @@ Also, I won't read my slides.
 
 
 
-## Let's talk about "mind-blowing"
+## "Mind-blowing"
 
-SpeakerNote: Words from my talk title. I hope your mind is blown, but--just
-between you and me--if you leave here today with one new little
-helpful/fun/inspiring tidbit that improves your command-line experience, I'll
-have achieved my goal.
+SpeakerNote: I was really excited when I wrote my talk title. I do hope your
+mind is blown, but my real goal is that you leave here today with one new
+little helpful/fun/inspiring tidbit that improves your command-line experience.
 
 
 
