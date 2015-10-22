@@ -15,10 +15,6 @@ Be present, ask questions. I'll moderate.
 
 
 
-Also, I won't read my slides.
-
-
-
 ## "Mind-blowing"
 
 SpeakerNote: I was really excited when I wrote my talk title. I do hope your
