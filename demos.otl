@@ -15,14 +15,20 @@ bash
 		; ^ci^log
 	dirjump / z / j2
 		see https://github.com/rupa/j2
-		; j 
+		; j
 		; j dot
 		; j cli<TAB>
 	pv
+		copy file with progress
+		; pv sourcefile > destfile
+		network throughput
+		; pv /dev/zero | ssh localhost 'cat > /dev/null'
 		more tricks: http://blog.urfix.com/9-tricks-pv-pipe-viewer/
 vim
 	my Vim setup: https://gitlab.com/meonkeys/dotvim
 	vimoutliner
+		zm, zm, zm, zR (this file)
+		see :help zm
 git
 	bisect
 		use example from git talk

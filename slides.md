@@ -28,16 +28,24 @@ have achieved my goal.
 
 
 
+# Demo
+
 [![Book cover for In the Beginning... was the Command Line](./command-line-book.jpg)](http://www.cryptonomicon.com/beginning.html)
 
 _In the Beginning... was the Command Line_
 
 
 
+# More demo
+
+SpeakerNote: open `demos.otl`
+
+
+
 # Thank you!
 
 * Visit <http://adammonsen.com>
-* Contact me: <haircut@gmail.com>
+* Email <haircut@gmail.com>
 
 SpeakerNote: I want to hear what works for you or what I could do better.
 Please let me know!
