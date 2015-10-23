@@ -24,7 +24,17 @@ bash
 		; git add <Alt-.>
 		; git ci <Alt-.>
 		; ^ci^log
+	globs
+		; echo *    # files & dirs
+		; echo */   # only dirs
+		with shopt -s globstar...
+		; echo **   # only files, recursive
+		; echo **/  # only dirs, recursive
+	watch a few commands at once
+		source: https://twitter.com/climagic/status/641706344458944512
+		; watch '{ uptime; echo; free; echo; df -h; }'
 	dirjump / z / j2
+		a much better cd (doesn't completely replace cd)
 		see https://github.com/rupa/j2
 		; j
 		; j dot
@@ -35,6 +45,13 @@ bash
 		network throughput
 		; pv /dev/zero | ssh localhost 'cat > /dev/null'
 		more tricks: http://blog.urfix.com/9-tricks-pv-pipe-viewer/
+	top 10 most frequent commands:
+		; cli-top-10
+		; history | awk '{a[$2]++ } END{for(i in a){print a[i] " " i}}' | sort -rn | head
+		slightly different in a shell script because history is disabled
+		; cat ~/.bash_history | awk '{a[$1]++ } END{for(i in a){print a[i] " " i}}' | sort -rn | head
+	hollywood
+		; hollywood
 vim
 	my Vim setup: https://gitlab.com/meonkeys/dotvim
 	vimoutliner
