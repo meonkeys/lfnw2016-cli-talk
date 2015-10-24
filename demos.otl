@@ -33,6 +33,10 @@ bash
 	watch a few commands at once
 		source: https://twitter.com/climagic/status/641706344458944512
 		; watch '{ uptime; echo; free; echo; df -h; }'
+	rename
+		; rename -n 's/rc$/BLAH/' *
+		; rename 's/rc$/BLAH/' *
+		; rename 's/BLAH$/rc/' *
 	dirjump / z / j2
 		a much better cd (doesn't completely replace cd)
 		see https://github.com/rupa/j2
@@ -52,17 +56,48 @@ bash
 		; cat ~/.bash_history | awk '{a[$1]++ } END{for(i in a){print a[i] " " i}}' | sort -rn | head
 	hollywood
 		; hollywood
+		; pkill hollywood
+		; pkill mplayer
+	percol
+		; vim `git ls-files | percol`
+		pick one with <Enter> or multiple with <Ctrl-space>, then <Enter>
+	sl - misspelled ls (steam locomotive)
+		; sl
+		; sl -l
+		; sl -F
+	dutop - top disk space users by subdir
+		http://www.pixelbeat.org/scripts/
+		http://www.pixelbeat.org/scripts/dutop
+		; cd ~/personal
+		; dutop
 vim
 	my Vim setup: https://gitlab.com/meonkeys/dotvim
+	airline - enhanced status line
+		; vim bashrc
+		mode, # changes, branch, file, %, line no: col no
+		:w
+		syntax check on save - Syntastic
+		:Errors
+		use ]l and [l to skip through errors
+		introduce trailing whitespace, save again
+		syntastic highlights line w/trailing whitespace on airline
+	multiple windows
+		; vim
+		:sp<Enter> to create initial horizontal split
+		Ctrl-w + motion to switch windows
+		:q<Enter> to close a split
 	vimoutliner
 		zm, zm, zm, zR (this file)
 		see :help zm
-git
-	bisect
-		use example from git talk
-	local clones (speed, testing, etc)
+	CommandT
+		start in ~/git/meonkeys/osem
+		\t
 ssh
 	ssh-agent
 	multiplex
 screen
 	detach/reattach
+git
+	bisect
+		use example from git talk
+	local clones (speed, testing, etc)

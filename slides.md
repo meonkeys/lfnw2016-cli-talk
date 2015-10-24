@@ -17,6 +17,11 @@ Be present, ask questions. I'll moderate.
 
 ## "Mind-blowing"
 
+* someone else already solved your problem
+    * `at`, `rename`, `locate`
+* yes, there's a GUI too, but you can't easily transform & reuse its output
+* ready to tinker, hack, extend, scale
+
 SpeakerNote: I was really excited when I wrote my talk title. I do hope your
 mind is blown, but my real goal is that you leave here today with one new
 little helpful/fun/inspiring tidbit that improves your command-line experience.
