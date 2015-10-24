@@ -21,10 +21,12 @@ Be present, ask questions. I'll moderate.
     * `at`, `rename`, `locate`
 * yes, there's a GUI for that, but you can't easily transform & reuse its
   output
-* tools like Vim & Bash blur are firstly interactive, but very automatable
-* very fast test/dev feedback loop
+* tools like Vim & Bash are primarily interactive, but very automatable
+* very fast test/dev feedback loop, easy experimentation
     * bolt a shovel on your telescope, tear it off, bolt on a fish sandwich
       instead
+* your old config/scripts/tricks keep working, improving (not so when you
+  switch IDEs)
 
 SpeakerNote: I was really excited when I wrote my talk title. I do hope your
 mind is blown, but my real goal is that you leave here today with one new
