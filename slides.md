@@ -19,8 +19,12 @@ Be present, ask questions. I'll moderate.
 
 * someone else already solved your problem
     * `at`, `rename`, `locate`
-* yes, there's a GUI too, but you can't easily transform & reuse its output
-* ready to tinker, hack, extend, scale
+* yes, there's a GUI for that, but you can't easily transform & reuse its
+  output
+* tools like Vim & Bash blur are firstly interactive, but very automatable
+* very fast test/dev feedback loop
+    * bolt a shovel on your telescope, tear it off, bolt on a fish sandwich
+      instead
 
 SpeakerNote: I was really excited when I wrote my talk title. I do hope your
 mind is blown, but my real goal is that you leave here today with one new

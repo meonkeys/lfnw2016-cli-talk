@@ -2,6 +2,7 @@ bash
 	start in ~/git/meonkeys/dotfiles/bashrc
 		see https://gitlab.com/meonkeys/dotfiles
 	emotiprompt
+		see smiley() in my bashrc
 		; false
 		; true
 	readline basics
@@ -54,10 +55,13 @@ bash
 		; history | awk '{a[$2]++ } END{for(i in a){print a[i] " " i}}' | sort -rn | head
 		slightly different in a shell script because history is disabled
 		; cat ~/.bash_history | awk '{a[$1]++ } END{for(i in a){print a[i] " " i}}' | sort -rn | head
-	hollywood
-		; hollywood
-		; pkill hollywood
-		; pkill mplayer
+	from my bashrc
+		; cd   # with auto-ls, created because ls was top in cli-top-10
+		; s    # alias for cd ..
+		; mkcd # create dir and cd to it
+		; vw   # vim a file in path (vim with "which")
+		; p    # better grep of process table
+		; pw   # better grep of process table, wide listings
 	percol
 		; vim `git ls-files | percol`
 		pick one with <Enter> or multiple with <Ctrl-space>, then <Enter>
@@ -66,10 +70,18 @@ bash
 		; sl -l
 		; sl -F
 	dutop - top disk space users by subdir
+		vs. baobab
 		http://www.pixelbeat.org/scripts/
 		http://www.pixelbeat.org/scripts/dutop
 		; cd ~/personal
 		; dutop
+	http - one-line HTTP server in current dir
+		; python -m SimpleHTTPServer 8000
+		see http() function in my bashrc
+	hollywood
+		; hollywood
+		; pkill hollywood
+		; pkill mplayer
 vim
 	my Vim setup: https://gitlab.com/meonkeys/dotvim
 	airline - enhanced status line
@@ -92,6 +104,13 @@ vim
 	CommandT
 		start in ~/git/meonkeys/osem
 		\t
+	UltiSnips & YouCompleteMe
+		; vim /tmp/test.html
+		html5<Ctrl-j>
+		lorem<Ctrl-j>
+		ul+<Ctrl-j>
+	gitgutter
+		show local modifications in "gutter" on left
 ssh
 	ssh-agent
 	multiplex
