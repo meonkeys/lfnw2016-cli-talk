@@ -10,6 +10,7 @@ Hit <kbd>s</kbd> to show [speaker notes](https://github.com/hakimel/reveal.js#sp
 * [Source code for this talk](https://gitlab.com/meonkeys/seagl2015-cli-talk).
 * [Rendered slideshow](http://meonkeys.github.io/seagl2015-cli-talk/).
 * [Talk details](https://osem.seagl.org/conference/seagl2015/proposal/31)
+* [Follow-up blog post](http://adammonsen.com/post/1342)
 
 # Copyright and license
 
