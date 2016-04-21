@@ -35,9 +35,9 @@ bash
 		source: https://twitter.com/climagic/status/641706344458944512
 		; watch -d 'uptime; echo; free -m; echo; df -h'
 	rename
-		; rename -n 's/rc$/BLAH/' *
-		; rename 's/rc$/BLAH/' *
-		; rename 's/BLAH$/rc/' *
+		; rename -n 's/rc$/BLAH/' *rc
+		; rename 's/rc$/BLAH/' *rc
+		; rename 's/BLAH$/rc/' *BLAH
 	dirjump / z / j2
 		a much better cd (doesn't completely replace cd)
 		see https://github.com/rupa/j2
@@ -46,10 +46,17 @@ bash
 		; j cli<TAB>
 	pv
 		copy file with progress
+		; fallocate -l 5G sourcefile
 		; pv sourcefile > destfile
 		network throughput
 		; pv /dev/zero | ssh localhost 'cat > /dev/null'
 		more tricks: http://blog.urfix.com/9-tricks-pv-pipe-viewer/
+	progress
+		scans /proc filesystem for interesting commands
+		reports progress on file descriptor activity
+		see https://github.com/Xfennec/progress
+		; watch progress -w
+		; nice cp sourcefile destfile
 	top 10 most frequent commands:
 		; cli-top-10
 		; history | awk '{a[$2]++ } END{for(i in a){print a[i] " " i}}' | sort -rn | head
@@ -63,8 +70,9 @@ bash
 		; p    # better grep of process table
 		; pw   # better grep of process table, wide listings
 	percol
-		; vim `git ls-files | percol`
+		; vim $(git ls-files | percol)
 		pick one with <Enter> or multiple with <Ctrl-space>, then <Enter>
+		I usually use CommandT in Vim instead (see below)
 	sl - misspelled ls (steam locomotive)
 		; sl
 		; sl -l
