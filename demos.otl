@@ -33,7 +33,7 @@ bash
 		; echo **/  # only dirs, recursive
 	watch a few commands at once
 		source: https://twitter.com/climagic/status/641706344458944512
-		; watch '{ uptime; echo; free; echo; df -h; }'
+		; watch '{ uptime; echo; free -m; echo; df -h; }'
 	rename
 		; rename -n 's/rc$/BLAH/' *
 		; rename 's/rc$/BLAH/' *
