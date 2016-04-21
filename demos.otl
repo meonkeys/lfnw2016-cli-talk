@@ -44,6 +44,8 @@ bash
 		; j
 		; j dot
 		; j cli<TAB>
+	locate - quickly find files by name
+		; locate toilet
 	pv
 		copy file with progress
 		; fallocate -l 5G sourcefile
@@ -69,7 +71,7 @@ bash
 		; vw   # vim a file in path (vim with "which")
 		; p    # better grep of process table
 		; pw   # better grep of process table, wide listings
-	percol
+	percol - file picker
 		; vim $(git ls-files | percol)
 		pick one with <Enter> or multiple with <Ctrl-space>, then <Enter>
 		I usually use CommandT in Vim instead (see below)
@@ -86,10 +88,40 @@ bash
 	http - one-line HTTP server in current dir
 		; python -m SimpleHTTPServer 8000
 		see http() function in my bashrc
+	toilet - console banners
+		run lfnw-banner
 	hollywood
 		; hollywood
 		; pkill hollywood
 		; pkill mplayer
+	nmap - find hosts on a network
+		; sudo nmap -sn -PS22,3389 -PU161 192.168.1.1/24
+		example output
+		;
+		;Starting Nmap 6.40 ( http://nmap.org ) at 2016-04-21 15:46 PDT
+		;Nmap scan report for Turris Omnia 7 (192.168.1.1)
+		;Host is up (0.0040s latency).
+		;MAC Address: BC:9F:11:AA:8B:28 (CZ.NIC)
+		;Nmap scan report for Alienware (192.168.1.151)
+		;Host is up (0.0051s latency).
+		;MAC Address: BC:99:AA:F9:AC:B1 (Dell Computer)
+		;Nmap scan report for OUYA (192.168.1.78)
+		;Host is up (0.20s latency).
+		;MAC Address: AC:39:CA:D9:AD:BB (Razer Group)
+		;Nmap done: 256 IP addresses (3 hosts up) scanned in 2.06 seconds
+	speedtest - ISP ping & bandwidth test
+		; sudo pip install speedtest-cli
+		; speedtest
+		example output
+		;Retrieving speedtest.net configuration...
+		;Retrieving speedtest.net server list...
+		;Testing from Yoyodine Broadband (20.59.738.121)...
+		;Selecting best server based on latency...
+		;Hosted by Condointernet.net (Seattle, WA) [2.24 km]: 16.158 ms
+		;Testing download speed...............................
+		;Download: 244.23 Mbit/s
+		;Testing upload speed..........................................
+		;Upload: 178.64 Mbit/s
 vim
 	my Vim setup: https://gitlab.com/meonkeys/dotvim
 	airline - enhanced status line
@@ -106,11 +138,13 @@ vim
 		:sp<Enter> to create initial horizontal split
 		Ctrl-w + motion to switch windows
 		:q<Enter> to close a split
-	vimoutliner
-		zm, zm, zm, zR (this file)
+	folds
+		vimrc is best example
+			alt example: Gruntfile.js, then :set fdm=syntax fdl=3
+		zM, zo, zR
 		see :help zm
-	CommandT
-		start in ~/git/meonkeys/osem
+	CommandT (similar to percol, above)
+		start in ~/git/meonkeys/dotfiles, search with "rc"
 		\t
 	UltiSnips & YouCompleteMe
 		; vim /tmp/test.html

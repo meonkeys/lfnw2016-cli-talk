@@ -1,0 +1,8 @@
+#!/bin/bash
+while IFS= read -r -n1 char
+do
+  clear
+  all="${all:-}$char"
+  toilet -t -F gay -f smmono12.tlf "$all"
+  sleep 0.25
+done <<< 'LFNW 2016!'
