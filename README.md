@@ -1,20 +1,20 @@
 # Command line talk
 
 Slides for a talk on Bash and common command line tools. To be presented at
-SeaGL 2015.
+[LFNW 2016](https://www.linuxfestnorthwest.org/2016).
 
 Hit <kbd>s</kbd> to show [speaker notes](https://github.com/hakimel/reveal.js#speaker-notes).
 
 ## Links
 
-* [Source code for this talk](https://gitlab.com/meonkeys/seagl2015-cli-talk).
-* [Rendered slideshow](http://meonkeys.github.io/seagl2015-cli-talk/).
-* [Talk details](https://osem.seagl.org/conference/seagl2015/proposal/31)
-* [Follow-up blog post](http://adammonsen.com/post/1342)
+* [Source code for this talk](https://gitlab.com/meonkeys/lfnw2016-cli-talk).
+* [Rendered slideshow](http://meonkeys.github.io/lfnw2016-cli-talk/).
+* [Talk details](https://www.linuxfestnorthwest.org/2016/sessions/command-line-versitile-future-proof-computing-environment)
+* Follow-up blog post (TBD, will appear at <http://adammonsen.com>)
 
 # Copyright and license
 
-©2015 - Adam Monsen
+©2016 - Adam Monsen
 
 <!-- cut & pasted license HTML from creativecommons.org. Easy, and includes
 "rel" attributes and metadata. -->
