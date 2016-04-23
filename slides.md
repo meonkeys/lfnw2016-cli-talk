@@ -1,6 +1,6 @@
 # The command line
 
-## A versitile, future-proof computing environment
+## A versatile, future-proof computing environment
 
 ### Mind-blowing Bash, Vim, Git, SSH, GNU Screen, and more.
 
