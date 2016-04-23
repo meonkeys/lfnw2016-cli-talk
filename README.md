@@ -10,7 +10,8 @@ Hit <kbd>s</kbd> to show [speaker notes](https://github.com/hakimel/reveal.js#sp
 * [Source code for this talk](https://gitlab.com/meonkeys/lfnw2016-cli-talk).
 * [Rendered slideshow](http://meonkeys.github.io/lfnw2016-cli-talk/).
 * [Talk details](https://www.linuxfestnorthwest.org/2016/sessions/command-line-versatile-future-proof-computing-environment)
-* Follow-up blog post (TBD, will appear at <http://adammonsen.com>)
+* [Follow-up blog post](http://adammonsen.com/post/1361)
+* [video](https://www.youtube.com/watch?v=Ug2Qyu06eBM)
 
 # Copyright and license
 
